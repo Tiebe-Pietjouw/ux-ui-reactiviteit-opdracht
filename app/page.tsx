@@ -6,26 +6,26 @@ export default function Home() {
       id: 1,
       title: "Was het verzet van Dario Amodei tegen minister Hegseth het 'Ik ben Spartacus!'-moment van Silicon Valley?",
       excerpt:
-        "Een analyse van het standpunt van Dario Amodei en hoe dit de technologieindustrie beïnvloedt...",
-      date: "28 April 2026",
-      readTime: "5 min leestijd",
-      imageUrl: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop",
+        "Een analyse van het standpunt van Dario Amodei tegenover minister Pete Hegseth en de implicaties voor Silicon Valley...",
+      date: "14 maart 2026",
+      readTime: "8 min leestijd",
+      imageUrl: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop",
     },
     {
       id: 2,
-      title: "Artikel 2 Titel",
-      excerpt: "Beschrijving van het tweede artikel...",
-      date: "28 April 2026",
-      readTime: "7 min leestijd",
-      imageUrl: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300&fit=crop",
+      title: "Vibecoding - zo maak je in enkele minuten je eigen games, websites en apps met AI",
+      excerpt: "Leer hoe je met AI-hulpmiddelen snel je eigen applicaties, games en websites kunt bouwen zonder diepgaande programmeerkennis...",
+      date: "28 april 2026",
+      readTime: "6 min leestijd",
+      imageUrl: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop",
     },
     {
       id: 3,
-      title: "Artikel 3 Titel",
-      excerpt: "Beschrijving van het derde artikel...",
-      date: "28 April 2026",
-      readTime: "6 min leestijd",
-      imageUrl: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop",
+      title: "Artikel 3",
+      excerpt: "De derde artikel wordt hier weergegeven. Voeg uw PDF toe aan de public/articles map.",
+      date: "28 april 2026",
+      readTime: "7 min leestijd",
+      imageUrl: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300&fit=crop",
     },
   ]
 
@@ -72,13 +72,12 @@ export default function Home() {
           </h3>
           <p className="text-gray-700 mb-4 leading-relaxed">
             Dit project is gebouwd als onderdeel van een cursusopdrachtover UX/UI-analyse en
-            implementatie. Elk artikel is geanalyseerd op basis van UX- en UI-principes,
-            inclusief visuele hiërarchie, typografie, leesbaarheid en interactie.
+            implementatie. De artikelen van De Standaard worden in hun originele PDF-format weergegeven,
+            zodat het originele design en layout behouden blijven.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Het doel is aan te tonen hoe bestaande content kritisch kan worden geëvalueerd
-            en vervolgens op een gebruikersvriendelijke en visueel aantrekkelijke manier
-            kan worden gepresenteerd in een Next.js-webapplicatie.
+            Het doel is aan te tonen hoe bestaande content kritisch kan worden geëvalueerd op UX/UI-principes
+            en hoe deze inzichten kunnen worden toegepast in webdesign.
           </p>
         </div>
       </section>
