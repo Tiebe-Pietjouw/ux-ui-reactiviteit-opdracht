@@ -62,25 +62,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-
-      {/* Info Section */}
-      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="bg-blue-50 rounded-lg p-8 border-l-4 border-blue-600">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Over dit project
-          </h3>
-          <p className="text-gray-700 mb-4 leading-relaxed">
-            Dit project is gebouwd als onderdeel van een cursusopdrachtover UX/UI-analyse en
-            implementatie. De artikelen van De Standaard worden in een custom layout gepresenteerd,
-            waarbij UX/UI-principes als typografie, visuele hiërarchie, witruimte en responsief design 
-            centraal staan.
-          </p>
-          <p className="text-gray-700 leading-relaxed">
-            Het doel is aan te tonen hoe bestaande content kritisch kan worden geëvalueerd op UX/UI-principes
-            en hoe deze inzichten kunnen worden toegepast in webdesign.
-          </p>
-        </div>
-      </section>
     </div>
   )
 }
