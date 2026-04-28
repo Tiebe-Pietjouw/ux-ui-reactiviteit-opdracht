@@ -4,20 +4,20 @@ export default function Home() {
   const articles = [
     {
       id: 1,
-      title: "Was het verzet van Dario Amodei tegen minister Hegseth het 'Ik ben Spartacus!'-moment van Silicon Valley?",
+      title: "Leidt AI-slop tot de dood van sociale media?",
       excerpt:
-        "Een analyse van het standpunt van Dario Amodei tegenover minister Pete Hegseth en de implicaties voor Silicon Valley...",
-      date: "14 maart 2026",
-      readTime: "8 min leestijd",
-      imageUrl: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop",
+        "Sociale media slibben dicht met AI-gegenereerde video's. Maar willen we daar in 2026 nog naar kijken?",
+      date: "2 januari 2026",
+      readTime: "5 min leestijd",
+      imageUrl: "/images/Foto article 1.png",
     },
     {
       id: 2,
       title: "Vibecoding - zo maak je in enkele minuten je eigen games, websites en apps met AI",
-      excerpt: "Leer hoe je met AI-hulpmiddelen snel je eigen applicaties, games en websites kunt bouwen zonder diepgaande programmeerkennis...",
-      date: "28 april 2026",
-      readTime: "6 min leestijd",
-      imageUrl: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop",
+      excerpt: "Hoe je met AI in een paar seconden een spel maakt, of zelfs een complete app opbouwt, zonder zelf code te schrijven.",
+      date: "23 januari 2026",
+      readTime: "10 min leestijd",
+      imageUrl: "/images/Foto article 2.png",
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ export default function Home() {
       excerpt: "De derde artikel wordt hier weergegeven. Voeg uw PDF toe aan de public/articles map.",
       date: "28 april 2026",
       readTime: "7 min leestijd",
-      imageUrl: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300&fit=crop",
+      imageUrl: "/images/Foto article 3.png",
     },
   ]
 
@@ -35,11 +35,10 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="text-center mb-16">
           <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            De Standaard Artikelen
+            Opdracht Reactiviteit
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Een verzameling van artikelen uit De Standaard, geanalyseerd en gepresenteerd
-            volgens UX/UI-principes van goede informatiedesign.
+            Hieronder een overzicht van de 3 artikels van De Standaard die in deze opdracht worden gebruikt. Klik op een artikel om de volledige lay-out te kunnen bekijken.
           </p>
         </div>
       </section>
@@ -72,8 +71,9 @@ export default function Home() {
           </h3>
           <p className="text-gray-700 mb-4 leading-relaxed">
             Dit project is gebouwd als onderdeel van een cursusopdrachtover UX/UI-analyse en
-            implementatie. De artikelen van De Standaard worden in hun originele PDF-format weergegeven,
-            zodat het originele design en layout behouden blijven.
+            implementatie. De artikelen van De Standaard worden in een custom layout gepresenteerd,
+            waarbij UX/UI-principes als typografie, visuele hiërarchie, witruimte en responsief design 
+            centraal staan.
           </p>
           <p className="text-gray-700 leading-relaxed">
             Het doel is aan te tonen hoe bestaande content kritisch kan worden geëvalueerd op UX/UI-principes

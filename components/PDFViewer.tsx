@@ -18,19 +18,32 @@ export default function PDFViewer({ pdfPath, title }: PDFViewerProps) {
       </div>
 
       <div className="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
-        <iframe
-          src={pdfPath}
-          className="w-full"
-          style={{ height: "90vh" }}
-          title={title}
-        />
+        <div className="relative w-full bg-gray-100">
+          <iframe
+            src={`${pdfPath}#toolbar=1`}
+            className="w-full border-none"
+            style={{ height: "90vh", minHeight: "500px" }}
+            title={title}
+            allowFullScreen
+            loading="lazy"
+          />
+        </div>
       </div>
 
-      <div className="mt-8 p-6 bg-blue-50 rounded-lg border-l-4 border-blue-600">
-        <p className="text-gray-700">
-          Het PDF-artikel wordt volledig weergegeven zoals gepubliceerd in De Standaard, 
-          met het originele design en layout behouden.
-        </p>
+      <div className="mt-8 space-y-4">
+        <div className="p-6 bg-blue-50 rounded-lg border-l-4 border-blue-600">
+          <p className="text-gray-700 mb-3">
+            Het PDF-artikel wordt volledig weergegeven zoals gepubliceerd in De Standaard, 
+            met het originele design en layout behouden.
+          </p>
+          <a
+            href={pdfPath}
+            download
+            className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+          >
+            ↓ PDF downloaden
+          </a>
+        </div>
       </div>
     </div>
   )
